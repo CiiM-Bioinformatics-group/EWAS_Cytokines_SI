@@ -15,6 +15,11 @@ older adults as discovery and the independent BCG Prime cohort for replication.
 02_EWAS_run/
   EWAS_run.R                            per-cytokine epigenome-wide association analysis
   Validaiton_EWAS_results_BCG_PRIME.R   replication of discovery cCpGs in BCG Prime
+
+03_longituidal_methatlion_change_AND_GWAS_EWAS_PUBLIC_DATA_ENRICHEMT_FIGURE3/
+  delta_longitudinal_methylation_change.R
+                                        methylation change at cCpGs across three time points
+                                        after vaccination, tested against matched background
 ```
 
 Run the folders in order. Each script has a settings block at the top defining
