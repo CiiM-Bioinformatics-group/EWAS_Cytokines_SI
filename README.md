@@ -22,9 +22,8 @@ older adults as discovery and the independent BCG Prime cohort for replication.
                                         in 300BCG, tested against matched background
 ```
 
-The cCpGs are identified in the SI cohort, which is not a vaccination cohort
-and is sampled at a single time point. To ask whether these sites change over
-time, they are carried into the independent 300BCG cohort, which received BCG
+The cCpGs are identified in the SI cohort. To ask whether these sites change following immune perturbation, 
+they are carried into the independent 300BCG cohort, which received BCG
 vaccination and was sampled before vaccination, 14 days after and 3 months
 after.
 
