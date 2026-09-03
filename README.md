@@ -19,8 +19,14 @@ older adults as discovery and the independent BCG Prime cohort for replication.
 03_longituidal_methatlion_change_AND_GWAS_EWAS_PUBLIC_DATA_ENRICHEMT_FIGURE3/
   delta_longitudinal_methylation_change.R
                                         methylation change at cCpGs across three time points
-                                        after vaccination, tested against matched background
+                                        in 300BCG, tested against matched background
 ```
+
+The cCpGs are identified in the SI cohort, which is not a vaccination cohort
+and is sampled at a single time point. To ask whether these sites change over
+time, they are carried into the independent 300BCG cohort, which received BCG
+vaccination and was sampled before vaccination, 14 days after and 3 months
+after.
 
 Run the folders in order. Each script has a settings block at the top defining
 its input and output paths.
