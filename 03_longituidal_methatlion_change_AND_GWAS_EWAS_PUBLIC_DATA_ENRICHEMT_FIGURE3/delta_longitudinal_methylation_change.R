@@ -2,12 +2,6 @@
 # =============================================================================
 # Longitudinal methylation remodeling at cytokine-associated CpGs
 #
-# The cCpGs tested here were identified in the SI cohort, which is not a
-# vaccination cohort and was sampled at a single time point, so it cannot show
-# whether these sites change over time. They are therefore carried into the
-# independent 300BCG cohort, which received BCG vaccination and was sampled
-# repeatedly, to ask whether cCpGs undergo more methylation remodeling than
-# comparable CpGs elsewhere in the genome.
 #
 # In 300BCG, blood samples were collected before vaccination (day 0), 14 days
 # after (day 14) and 3 months after (day 90). Only individuals with complete
