@@ -16,10 +16,16 @@ older adults as discovery and the independent BCG Prime cohort for replication.
   EWAS_run.R                            per-cytokine epigenome-wide association analysis
   Validaiton_EWAS_results_BCG_PRIME.R   replication of discovery cCpGs in BCG Prime
 
-03_longituidal_methatlion_change_AND_GWAS_EWAS_PUBLIC_DATA_ENRICHEMT_FIGURE3/
-  delta_longitudinal_methylation_change.R
+step3_Figure3_analysis/
+  longituidal_methatlion_change/
+    MAKE_BACKGOUND_METHYLATION_REMODILING.R
+                                        background CpG pools, matched on chromosome and
+                                        genomic annotation
+    delta_longitudinal_methylation_change.R
                                         methylation change at cCpGs across three time points
                                         in 300BCG, tested against matched background
+  EWAS_GWAS_TRAITS_DATA_ENRICHEMT/
+                                        enrichment of cCpGs in public GWAS and EWAS trait data
 ```
 
 The cCpGs are identified in the SI cohort. To ask whether these sites change following immune perturbation, 
