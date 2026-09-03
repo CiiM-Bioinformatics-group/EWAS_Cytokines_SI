@@ -1,16 +1,9 @@
 # EWAS of stimulation-induced cytokine responses
 
-Analysis code for a study of how DNA methylation shapes inter-individual
-variation in cytokine responses to immune stimulation.
+Analysis code for a study of the role of DNA methylation in inter-individual
+variation in cytokine responses to immune stimulation, using the SI cohort of
+older adults as discovery and the independent BCG Prime cohort for replication.
 
-Cytokine responses were profiled in the **SI cohort of older adults (n = 516)**
-as discovery and the independent **BCG Prime cohort (n = 384)** for replication.
-Genetic variation explained the largest share of response variance, particularly
-for antiviral responses, while DNA methylation contributed a smaller but
-consistent fraction and improved model performance in innate immune contexts.
-Epigenome-wide association analyses identified **1,560 cytokine-associated CpG
-sites (cCpGs)**, of which 45% replicated in BCG Prime and 28% remained
-significant after multiple-testing correction.
 
 ## Repository layout
 
