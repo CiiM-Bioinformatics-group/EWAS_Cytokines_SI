@@ -2,11 +2,6 @@
 # Two-sample MR: methylation at a CpG as exposure, cytokine response as outcome.
 # One results file per cytokine.
 #
-# Same tiering as the disease analysis:
-#   1 SNP    Wald ratio, no sensitivity tests
-#   2 SNPs   IVW, no sensitivity tests
-#   3+ SNPs  IVW plus MR-Egger intercept, Cochran's Q and leave-one-out
-#
 # Each significant result is compared against the observational EWAS effect for
 # the same CpG and cytokine, and labelled Concordant or Discordant on the sign.
 #
