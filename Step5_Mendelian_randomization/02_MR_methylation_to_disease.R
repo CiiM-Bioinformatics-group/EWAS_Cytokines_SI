@@ -6,10 +6,7 @@
 #   1 SNP    Wald ratio, no sensitivity tests
 #   2 SNPs   IVW, no sensitivity tests
 #   3+ SNPs  IVW plus MR-Egger intercept, Cochran's Q and leave-one-out
-#
-# The GoDMC instruments are already a clumped lead-SNP set, so no further
-# LD pruning is applied by default. Pass a PLINK .prune.in file as the fourth
-# argument to restrict the outcome side to an independent subset.
+
 #
 # Usage:
 #   Rscript 02_MR_methylation_to_disease.R <mqtl_file> <gwas_file> <out.txt> [prune_file|NONE]
