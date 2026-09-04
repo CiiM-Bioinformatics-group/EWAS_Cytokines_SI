@@ -9,23 +9,24 @@ older adults as discovery and the independent BCG Prime cohort for replication.
 
 ```
 01_cytokines_QC_and_explained_variance_Figure2/
-  01_QC_cytokines.R                     cytokine QC, filtering and rank-based normalisation
-  01_explained_variance.R               variance partitioned between methylation and genetics
+    cytokine QC and normalisation, and variance partitioned between
+    methylation and genetics
 
 02_EWAS_run/
-  EWAS_run.R                            per-cytokine epigenome-wide association analysis
-  Validaiton_EWAS_results_BCG_PRIME.R   replication of discovery cCpGs in BCG Prime
+    per-cytokine epigenome-wide association analysis, and replication
+    of the discovery cCpGs in BCG Prime
 
 step3_Figure3_analysis/
-  longituidal_methatlion_change/
-    MAKE_BACKGOUND_METHYLATION_REMODILING.R
-                                        background CpG pools, matched on chromosome and
-                                        genomic annotation
-    delta_longitudinal_methylation_change.R
-                                        methylation change at cCpGs across three time points
-                                        in 300BCG, tested against matched background
-  EWAS_GWAS_TRAITS_DATA_ENRICHEMT/
-                                        enrichment of cCpGs in public GWAS and EWAS trait data
+    longitudinal methylation change at cCpGs in 300BCG, and enrichment
+    of cCpGs in public GWAS and EWAS trait data
+
+Step4_Figure4_genomic_features_enrichment_by_direction/
+    genomic feature annotation of cCpGs and enrichment by direction of
+    effect, against the non-significant array background
+
+Step5_Mendelian_randomization/
+    two-sample MR of methylation on cytokine responses and on disease
+    and immune traits
 ```
 
 The cCpGs are identified in the SI cohort. To ask whether these sites change following immune perturbation, 
@@ -39,7 +40,8 @@ its input and output paths.
 ## Requirements
 
 R with `ggplot2`, `dplyr`, `tidyr`, `data.table`, `MASS`, `sandwich`, `lmtest`,
-`foreach`, `doParallel`, `pheatmap`, `Hmisc`, `openxlsx`.
+`foreach`, `doParallel`, `pheatmap`, `Hmisc`, `openxlsx`, `TwoSampleMR` and
+`GenomicRanges`.
 
 ## Data
 
