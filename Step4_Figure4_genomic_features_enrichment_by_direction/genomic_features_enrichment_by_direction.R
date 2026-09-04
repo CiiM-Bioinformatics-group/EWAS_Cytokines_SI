@@ -19,12 +19,7 @@
 # negligible differences, so enrichment is assessed by permutation instead:
 # sets of the same size as the group are drawn from the background and the
 # percentage in each annotation category is recorded, giving an empirical p
-# value for the observed percentage. Odds ratios are reported alongside, and
-# p values are corrected across the fifteen categories within each group with
-# the Benjamini-Hochberg procedure.
-#
-# The background is matched on set size only. Annotation composition is the
-# quantity being tested, so matching on it would remove the signal.
+# value for the observed percentage.
 #
 # Input
 #   SI.txt                          the cCpG identifiers
